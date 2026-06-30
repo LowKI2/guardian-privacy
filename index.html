@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy — Guardian of Ilzarah</title>
 <style>
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
-h1 { color: #1a1a2e; }
-h2 { color: #2c3e50; margin-top: 30px; }
-p { margin: 10px 0; }
-.updated { color: #888; font-size: 14px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+  h1 { color: #1a1a2e; }
+  h2 { color: #2c3e50; margin-top: 30px; }
+  p, li { margin: 10px 0; }
+  .updated { color: #888; font-size: 14px; }
 </style>
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: May 22, 2026</p>
+<p class="updated">Last updated: July 1, 2026</p>
 
-<p><strong>Guardian of Ilzarah</strong> ("the Game") is developed by LowKI. This privacy policy explains how we handle your data.</p>
+<p>Guardian of Ilzarah ("the Game") is developed by LowKI / BZI Studio ("we", "us"). This privacy policy explains what data the Game handles and how.</p>
 
-<h2>Data We Collect</h2>
-<p>The Game does not collect, store, or transmit any personal data to our servers. All game progress (scores, upgrades, settings) is stored locally on your device.</p>
+<h2>Data Stored on Your Device</h2>
+<p>Your game progress (upgrades, settings, current run, personal best scores) is stored locally on your device using standard storage (localStorage). This data is included in Android's automatic backup to your Google account so you can restore progress when reinstalling the app. We do not have access to this local data.</p>
 
-<h2>Google Play Games Services</h2>
-<p>The Game uses Google Play Games Services for leaderboards. When you sign in to Google Play Games, your public Google Play Games profile name and scores are shared with Google's services. This data is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+<h2>Online Leaderboard</h2>
+<p>The Game offers an optional online leaderboard. Submitting a score is voluntary — it only happens when you choose to open the leaderboard and enter a display name. When you submit, the following data is sent to and stored on our database provider (Supabase):</p>
+<ul>
+  <li>A display name that you choose (you are not required to use your real name)</li>
+  <li>Your score, wave reached, damage dealt and the station you used</li>
+</ul>
+<p>This information is shown publicly in the in-game leaderboard to other players. Data is transmitted over an encrypted connection (HTTPS). If you want your leaderboard entry removed, contact us at the e-mail address below.</p>
+
+<h2>Advertising</h2>
+<p>The Game shows occasional advertisements provided by Google AdMob. To serve and measure ads, AdMob may access your device's advertising identifier and related device information. For users in the EEA/UK, ad personalization is subject to your consent choice. You can learn more in <a href="https://policies.google.com/technologies/ads">Google's advertising privacy information</a>. The Game itself does not use analytics or tracking beyond what AdMob requires for advertising.</p>
 
 <h2>Third-Party Services</h2>
-<p>The Game uses the following third-party services:</p>
 <ul>
-<li><strong>Google Play Games Services</strong> — for leaderboards and player authentication</li>
+  <li><strong>Google AdMob</strong> — advertising (see <a href="https://policies.google.com/privacy">Google Privacy Policy</a>)</li>
+  <li><strong>Supabase</strong> — hosting of the online leaderboard database (see <a href="https://supabase.com/privacy">Supabase Privacy Policy</a>)</li>
 </ul>
-<p>We do not use analytics, advertising, or tracking services.</p>
-
-<h2>Data Storage</h2>
-<p>Game progress is saved locally on your device using standard browser storage (localStorage). This data is included in Android's automatic backup to your Google account, allowing you to restore progress when reinstalling the app.</p>
 
 <h2>Children's Privacy</h2>
 <p>The Game is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
 
 <h2>Changes to This Policy</h2>
-<p>We may update this privacy policy from time to time. Changes will be reflected by updating the "Last updated" date above.</p>
+<p>We may update this privacy policy from time to time. Changes are reflected by updating the "Last updated" date above.</p>
 
 <h2>Contact</h2>
-<p>If you have questions about this privacy policy, please contact us at: <strong>lescar86@googlemail.com</strong></p>
+<p>If you have questions about this privacy policy or want your leaderboard data removed, contact us at: support@lowki.pro</p>
 </body>
 </html>
